@@ -60,27 +60,28 @@
     <!--x-x-x-x-x--x Navbar-x-x-x-x-x-x--->
     <!---Hero Section----->
     <section class="text-gray-600 body-font overflow-x-hidden">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="container flex px-3 py-24 md:flex-row flex-col items-center">
             <div data-aos="fade-right"
-                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-left font-best-a">It's
                     not about
                     having a lot
                     of money. It's about knowing how to manage it.</h1>
                 <p class="mb-8 leading-relaxed text-xl">Start your investment journey now </p>
                 <div class="flex w-full md:justify-start justify-center items-end my-3">
-                    <div class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
+                    <div id="email-field" class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
 
                         <input type="email" id="hero-field" name="hero-field"
                             class="w-full bg-gray-100 rounded border bg-opacity-50 border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out border-1"
                             placeholder="Email">
                     </div>
                     <button
+                    id="invest-button"
                         class="inline-flex text-white bg-indigo-500 border-0 py-2 px-3 focus:outline-none hover:bg-indigo-600 rounded text-lg">Start
                         Investing</button>
                 </div>
                 <p id='download' class="mb-8 mt-6 leading-relaxed">Download Our App Now!!</p>
-                <div class="flex lg:flex-row md:flex-col">
+                <div class="flex lg:flex-row">
                     <button id="play-button" data-tilt data-tilt-scale="1.1"
                         class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6"
@@ -112,7 +113,7 @@
                     </button>
                 </div>
             </div>
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" data-aos="fade-left">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ml-8" data-aos="fade-left">
                 <img class="object-cover object-center rounded w-5/6" alt="hero"
                     src="https://marketing.ringgitplus.com/wp-content/uploads/2021/01/rplus_financialplanning-atf-min.png">
             </div>
@@ -529,7 +530,7 @@
     <!----App Features-------->
     <h1 class="text-center text-4xl font-bold font-best">Why download our app?</h1>
     <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div id='justify-pls' class="container px-5 py-24 mx-auto flex flex-wrap">
             <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden" data-aos="fade-right">
                 <img alt="feature" class="object-cover object-center h-full w-full "
                     src="https://img.freepik.com/premium-vector/mobile-app-development-coding_73174-316.jpg?w=1080">
@@ -614,7 +615,7 @@
         <div class="container px-5 py-24 mx-auto" data-aos="zoom-in-up">
             <div class="flex flex-wrap -m-4">
                 <div class="p-4 md:w-1/3" data-tilt data-tilt-scale="1.1">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <div class="hover:bg-gray-200 focus:outline-none h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img class="lg:h-48 md:h-36 w-full object-cover object-center"
                             src="https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2022/07/28/1070457-untitled-design-2022-07-28t180558.189.jpg"
                             alt="blog">
@@ -655,7 +656,7 @@
                     </div>
                 </div>
                 <div class="p-4 md:w-1/3" data-aos="zoom-in-up" data-tilt data-tilt-scale="1.1">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <div class="hover:bg-gray-200 focus:outline-none h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img class="lg:h-48 md:h-36 w-full object-cover object-center"
                             src="https://static.toiimg.com/thumb/imgsize-114642,msid-93149157,width-400,resizemode-4/93149157.jpg"
                             alt="blog">
@@ -697,7 +698,7 @@
                     </div>
                 </div>
                 <div class="p-4 md:w-1/3" data-aos="zoom-in-up" data-tilt data-tilt-scale="1.1">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <div class="hover:bg-gray-200 focus:outline-none h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img class="lg:h-48 md:h-36 w-full object-cover object-center"
                             src="https://www.financialexpress.com/wp-content/uploads/2022/07/Stock-Market-01-1.jpg"
                             alt="blog">
@@ -943,8 +944,8 @@
                 </div>
             </div>
             <div class="flex flex-wrap -m-4" data-aos="flip-left">
-                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                <div class="  p-4 xl:w-1/4 md:w-1/2 w-full" data-tilt data-tilt-scale="1.1">
+                    <div class="hover:bg-gray-200 focus:outline-none h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                         <h2 class="text-sm tracking-widest title-font mb-1 font-medium">START</h2>
                         <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
                         <p class="flex items-center text-gray-600 mb-2">
@@ -984,9 +985,9 @@
 
                     </div>
                 </div>
-                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                <div class="  p-4 xl:w-1/4 md:w-1/2 w-full" data-tilt data-tilt-scale="1.1">
                     <div
-                        class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+                        class="hover:bg-gray-200 focus:outline-none h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
                         <span
                             class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
                         <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PRO</h2>
@@ -1033,8 +1034,8 @@
 
                     </div>
                 </div>
-                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                <div class="  p-4 xl:w-1/4 md:w-1/2 w-full" data-tilt data-tilt-scale="1.1">
+                    <div class="hover:bg-gray-200 focus:outline-none h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                         <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Premimum</h2>
                         <h1
                             class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -1080,8 +1081,8 @@
                         <p class="text-xs text-gray-500 mt-3"></p>
                     </div>
                 </div>
-                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                <div class=" p-4 xl:w-1/4 md:w-1/2 w-full" data-tilt data-tilt-scale="1.1">
+                    <div class="hover:bg-gray-200 hover:border-r-2 focus:outline-none  h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                         <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Ultimate</h2>
                         <h1
                             class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -1167,8 +1168,8 @@
                 data-aos="zoom-in-up">Testimonials
             </h1>
             <div class="flex flex-wrap -m-4">
-                <div class="p-4 md:w-1/2 w-full">
-                    <div class="h-full bg-gray-100 p-8 rounded" data-aos="flip-up">
+                <div class="p-4 md:w-1/2 w-full" data-aos="flip-up" >
+                    <div class=" hover:bg-gray-200 focus:outline-none h-full bg-gray-100 p-8 rounded"  data-tilt data-tilt-scale="1.1">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
                             <path
@@ -1188,8 +1189,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="p-4 md:w-1/2 w-full" data-aos="flip-up">
-                    <div class="h-full bg-gray-100 p-8 rounded">
+                <div class="  p-4 md:w-1/2 w-full" data-aos="flip-up" >
+                    <div class="hover:bg-gray-200 focus:outline-none h-full bg-gray-100 p-8 rounded " data-tilt data-tilt-scale="1.1">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
                             <path
@@ -1209,8 +1210,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="p-4 md:w-1/2 w-full" data-aos="flip-up">
-                    <div class="h-full bg-gray-100 p-8 rounded">
+                <div class="  p-4 md:w-1/2 w-full" data-aos="flip-up" >
+                    <div class="hover:bg-gray-200 focus:outline-none h-full bg-gray-100 p-8 rounded" data-tilt data-tilt-scale="1.1">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
                             <path
@@ -1230,8 +1231,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="p-4 md:w-1/2 w-full" data-aos="flip-up">
-                    <div class="h-full bg-gray-100 p-8 rounded">
+                <div class=" p-4 md:w-1/2 w-full" data-aos="flip-up">
+                    <div class="  hover:bg-gray-200 focus:outline-none h-full bg-gray-100 p-8 rounded"  data-tilt data-tilt-scale="1.1">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
                             <path
@@ -1343,12 +1344,13 @@
                     <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
                     <div
                         class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start justify-center">
-                        <div class="relative w-40 mx-auto sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                        <div id='footer-field' class="relative w-40 mx-auto sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
 
                             <input type="email" id="footer-field" name="footer-field" placeholder="Email"
                                 class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                         </div>
                         <button
+                            id="subscribe-button"
                             class="lg:mt-2 xl:mt-0 mx-auto mt-2 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded align-center ">Subscribe!</button>
                     </div>
                     <p class="text-gray-500 text-sm mt-2 md:text-left text-center">Summer Fields School
